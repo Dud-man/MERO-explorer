@@ -12,7 +12,7 @@ const CardLinks = () => (
     <a href="https://discord.gg/a7vhegP" target="_blank">Discord</a><br />
     <a href="https://t.me/vulcanocrypto" target="_blank">Telegram</a><br />
     <a href="https://twitter.com/VulcanoCoin" target="_blank">Twitter</a><br />
-    <a href="https://www.facebook.com/vulcano.coin.IO/" target="_blank">Facebook</a>
+    <a href="https://www.facebook.com/vulcano.coin.IO/" target="_blank">Facebook</a><br />
     <a href="https://medium.com/@vulcanotube" target="_blank">Medium</a>
   </Card>
 );

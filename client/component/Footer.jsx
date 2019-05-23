@@ -27,9 +27,10 @@ class Footer extends Component {
         <div className="footer__block">
           <img className="footer__logo" src="/img/whitelogo.png" />
           <span className="footer__legal">
-            <div>Copyright &copy; 2018 <a href="https://bulwarkcrypto.com/">Bulwark Cryptocurrency</a></div>
-            <div>Copyright &copy; 2018 <a href="https://vulcano.io/">Vulcano Cryptocurrency</a></div>
-            <div>Site design / Logo &copy; 2018 <a href="https://vulcano.io/">Vulcano Cryptocurrency</a></div>
+            <div>Copyright &copy; 2018 - 2019 <a href="https://bulwarkcrypto.com/">Bulwark Cryptocurrency</a></div>
+            <div>Copyright &copy; 2018 - 2019 <a href="https://vulcano.io/">Vulcano Cryptocurrency</a></div>
+            <div>Implementation 2019 <a href="https://gossipcoin.net/">GOSSIP Blockchain Project</a></div>
+            <div>Site design / Logo &copy; 2018 - 2019 <a href="https://vulcano.io/">Vulcano Cryptocurrency</a></div>
           </span>
         </div>
         <div className="footer__block">
