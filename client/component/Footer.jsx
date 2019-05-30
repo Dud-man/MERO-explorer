@@ -67,21 +67,13 @@ class Footer extends Component {
               <a href="https://www.reddit.com/r/Vulcano/" target="_blank">
                 <Icon name="reddit" className="fab footer__social-media-icon" />
               </a>
-<<<<<<< HEAD
               <a href="https://github.com/VulcanoCrypto/" target="_blank">
-=======
-              <a href="https://github.com/vulcanoCrypto" target="_blank">
->>>>>>> v-explorer/master
                 <Icon name="github" className="fab footer__social-media-icon" />
               </a>
               <a href="https://twitter.com/VulcanoCoin" target="_blank">
                 <Icon name="twitter" className="fab footer__social-media-icon" />
               </a>
-<<<<<<< HEAD
               <a href="https://www.facebook.com/VulcanoCrypto" target="_blank">
-=======
-              <a href="http://facebook.com/vulcanoCrypto" target="_blank">
->>>>>>> v-explorer/master
                 <Icon name="facebook" className="fab footer__social-media-icon" />
               </a>
             </div>
