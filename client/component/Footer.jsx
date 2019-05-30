@@ -27,7 +27,11 @@ class Footer extends Component {
         <div className="footer__block">
           <img className="footer__logo" src="/img/whitelogo.png" />
           <span className="footer__legal">
+<<<<<<< HEAD
             <div>Implementation 2019 <a href="https://gossipcoin.net/">GOSSIP Blockchain Project</a></div>
+=======
+		    <div>Implementation 2019 <a href="https://gossipcoin.net/">GOSSIP Blockchain Project</a></div>
+>>>>>>> v-explorer/master
             <div>Copyright &copy; 2018 - 2019 <a href="https://bulwarkcrypto.com/">Bulwark Cryptocurrency</a></div>
             <div>Copyright &copy; 2018 - 2019 <a href="https://vulcano.io/">Vulcano Cryptocurrency</a></div>
           </span>
@@ -67,13 +71,21 @@ class Footer extends Component {
               <a href="https://www.reddit.com/r/Vulcano/" target="_blank">
                 <Icon name="reddit" className="fab footer__social-media-icon" />
               </a>
+<<<<<<< HEAD
               <a href="https://github.com/VulcanoCrypto/" target="_blank">
+=======
+              <a href="https://github.com/vulcanoCrypto" target="_blank">
+>>>>>>> v-explorer/master
                 <Icon name="github" className="fab footer__social-media-icon" />
               </a>
               <a href="https://twitter.com/VulcanoCoin" target="_blank">
                 <Icon name="twitter" className="fab footer__social-media-icon" />
               </a>
+<<<<<<< HEAD
               <a href="https://www.facebook.com/VulcanoCrypto" target="_blank">
+=======
+              <a href="http://facebook.com/vulcanoCrypto" target="_blank">
+>>>>>>> v-explorer/master
                 <Icon name="facebook" className="fab footer__social-media-icon" />
               </a>
             </div>

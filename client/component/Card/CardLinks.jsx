@@ -14,7 +14,11 @@ const CardLinks = () => (
     <a href="https://twitter.com/VulcanoCoin" target="_blank">Twitter</a><br />
     <a href="https://www.facebook.com/VulcanoCrypto" target="_blank">Facebook</a><br />
     <a href="https://www.youtube.com/channel/UC6L3qsCORIvtftVyeNHzh0Q" target="_blank">YouTube</a>
+<<<<<<< HEAD
   </Card>
+=======
+</Card>
+>>>>>>> v-explorer/master
 );
 
 export default CardLinks;
