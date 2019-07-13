@@ -20,7 +20,6 @@ async function syncCoin() {
   const info = await rpc.call('getinfo');
   const masternodes = await rpc.call('getmasternodecount');
   const nethashps = await rpc.call('getnetworkhashps');
-
   
   const results = await UTXO.aggregate([
     { $group: { _id: 'supply', total: { $sum: '$value' } } }
@@ -43,6 +42,7 @@ async function syncCoin() {
     peers: info.connections,
     status: 'Online',
     supply: market.available_supply, // TODO: change to actual count from db.
+    supply: results.length ? results[0].total : market.available_supply,
     usd: market.price_usd
   });
 
