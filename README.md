@@ -14,13 +14,8 @@ https://nodejs.org/en/download/package-manager/
 
 https://yarnpkg.com/lang/en/docs/install/
 
-It is also required to have the Vulcano daemon running in the background. It is recommended to set this up before beginning to set up the explorer so that it syncs by the time you need it.
+It is also required to have the MERO daemon running in the background. It is recommended to set this up before beginning to set up the explorer so that it syncs by the time you need it.
 
-Our geniuses here at VulcanoCorp™ have put together a script to do this for you. Just run
-
-`bash script/vulcanod_setup.sh`
-
-This will install the latest Vulcano wallet and create a rpc username/password before starting the daemon.
 
 ## Install
 `git clone https://github.com/vulcano-crypto/vulcano-explorer.git` - copy repo to local folder.
