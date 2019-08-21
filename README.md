@@ -1,5 +1,7 @@
 
-=====
+Mero Explorer
+
+
 
 Simple cryptocurrency block explorer system.
 
@@ -14,11 +16,13 @@ https://nodejs.org/en/download/package-manager/
 
 https://yarnpkg.com/lang/en/docs/install/
 
-It is also required to have the MERO daemon running in the background. It is recommended to set this up before beginning to set up the explorer so that it syncs by the time you need it.
+It is also required to have the Mero daemon running in the background. It is recommended to set this up before beginning to set up the explorer so that it syncs by the time you need it.
 
+
+This will install the latest Bulwark wallet and create a rpc username/password before starting the daemon.
 
 ## Install
-`git clone https://github.com/vulcano-crypto/vulcano-explorer.git` - copy repo to local folder.
+`git clone https://github.com/dud-man/MERO-explorer.git` - copy repo to local folder.
 
 `cd blockex` - change into project directory.
 
@@ -36,6 +40,13 @@ It is also required to have the MERO daemon running in the background. It is rec
 `db.createUser( { user: "blockexuser", pwd: "Explorer!1", roles: [ "readWrite" ] } )` - create a user with the values stored in the `config.js` file from above, meaning they should match.
 
 `exit` - exit the mongo client.
+
+__IMPORTANT:__ _You should not build the frontend using the same `config.js` file as created above or  you WILL LEAK sensitive database information._
+
+#### BlockEx UI Configuration
+On the local development machine, not the server/VPS, run `cp config.template.js config.js` to create new configuration file that will have the UI information in it.  
+
+__IMPORTANT:__ _You should have two `config.js` files, one for the server with the sensitive database connection information, and one that is used by the developer/designer on their local machine to configure and build the UI._
 
 #### Crontab
 The following automated tasks are currently needed for BlockEx to update but before running the tasks please update the cron script `/path/to/blockex/script/cron_block.sh` for the block with the local `/path/to/node`.
@@ -88,8 +99,6 @@ At this time only the client web interface needs to be built using webpack and t
 #### Server - Rest API (node, express, mongo, mongoose)
 
 `server/route/api.js` - Contains all public rest api endpoint routes
-
-
 
 ## To-Do
 - Write more tests

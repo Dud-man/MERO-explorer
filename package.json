@@ -1,9 +1,9 @@
 {
-  "name": "blockex",
+  "name": "Mero Explorer",
   "version": "0.0.1",
-  "description": "Cryptocurrency block explorer",
+  "description": "Mero block explorer",
   "main": "./public",
-  "repository": "git@github.com:dustinengle/blockex.git",
+  "repository": "git@github.com:dud-man/MERO-explorer.git",
   "author": "Dustin Engle <dustin@dustinengle.com>",
   "license": "MIT",
   "scripts": {
@@ -24,6 +24,7 @@
     "test:web": "mocha --compilers js:babel-core/register ./test/client"
   },
   "dependencies": {
+    "@slack/client": "^4.8.0",
     "babel-polyfill": "^6.26.0",
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
@@ -72,7 +73,7 @@
     "style-loader": "^0.20.1",
     "uglifyjs-webpack-plugin": "^1.2.4",
     "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.1",
+    "webpack-dev-server": ">=3.1.11",
     "worker-loader": "^1.1.1"
   }
 }
